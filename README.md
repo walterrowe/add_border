@@ -29,7 +29,7 @@ macOS AppleScript to add borders to image files. This works as a droplet with ma
   
 
 ### Origins
-This script originates from Apple’s Recursive Image File Processing Droplet template
+This script originates from Apple’s Recursive Image File Processing Droplet template. It formats and executes terminal `sips` command to edit the selected image files.
 1. Open Apple ScriptEditor
 2. Navigate to menu option File > New from Template > Droplets > Recursive Image File Processing Droplet
 
