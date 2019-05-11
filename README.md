@@ -15,6 +15,9 @@ To create an app from this script
 To use inside Capture One
 1. Go to `Open With` field in a Capture One Output Recipe
 2. Navigate to and select add_border droplet
+3. Select Process Recipe
+4. Select images to process
+5. Process images (`CMD-d`)
 
 To use directly in macOS Finder
 1. Select image files in Finder
