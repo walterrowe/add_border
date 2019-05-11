@@ -23,8 +23,8 @@ To use directly in macOS Finder
 1. Select image files in Finder
 2. Drag-n-drop onto add_border droplet
   
-To see the origins of this script
+This script originates from Apple’s Recursive Image File Processing Droplet template
 1. Open Apple ScriptEditor
-2. Go to menu option File > New from Template > Droplets > Recursive Image File Processing Droplet
+2. Navigate to menu option File > New from Template > Droplets > Recursive Image File Processing Droplet
 
 [Mac Automation Scripting Guide – Process Dropped Files and Folder](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/ProcessDroppedFilesandFolders.html)
