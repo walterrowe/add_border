@@ -73,8 +73,12 @@ on open these_items
 				set pixelHeight to y + padding
 				set pixelWidth to x + padding
 				
-				(* resize image by adding white border to pad image size *)
-				do shell script "sips " & this_path & " -p " & pixelHeight & " " & pixelWidth & " --padColor ffffff -i"
+				(* increase image dimensions by “padding” pixels to add white border *)
+				try
+					do shell script "sips " & this_path & " -p " & pixelHeight & " " & pixelWidth & " --padColor ffffff -i"
+				on error errStr number errorNumber
+					display dialog "Droplet ERROR: " & errStr & ": " & (errorNumber as text) & "on file " & this_filename
+				end try
 				
 				(* this uses shortest edge to calculate 4% border width, swap the two formulas to use longest edge *)
 				if x is greater than y then -- set outer border width to 2% of shortest edge in pixels
@@ -87,7 +91,7 @@ on open these_items
 				set pixelHeight to y + padding
 				set pixelWidth to x + padding
 				
-				(* resize image again by adding black border to pad image size *)
+				(* increase image dimensions by “padding” pixels to add black border *)
 				do shell script "sips " & this_path & " -p " & pixelHeight & " " & pixelWidth & " --padColor 000000 -i"
 				
 			on error errStr number errorNumber
