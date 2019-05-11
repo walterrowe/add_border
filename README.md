@@ -3,7 +3,7 @@
 macOS AppleScript to add borders to image files. This works as a droplet with macOS Finder or with Capture One Pro when added to the Open With field in Output Recipes.
 
 | Role | Name | Year |
-| ---: | --- | --- |
+| ---: | :--- | ---: |
 | Original | Kim Aldis | 2016 |
 | Modified | Walter Rowe | 2019 |
 
