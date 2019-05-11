@@ -17,10 +17,11 @@ macOS AppleScript to add borders to image files. This works as a droplet with ma
 
 ### To use inside Capture One
 1. Go to `Open With` field in a Capture One Output Recipe
-2. Navigate to and select add_border droplet
-3. Select Process Recipe
-4. Select images to process
-5. Process images (`CMD-d`)
+2. Choose `Other` from the `Open With` drop-down menu
+3. Navigate to and select your add_border droplet
+4. Select Process Recipe
+5. Select images to process
+6. Process images (`CMD-d`)
 
 
 ### To use directly in macOS Finder
