@@ -2,14 +2,23 @@
 
 AppleScript to be used with Capture One Pro to add borders via Output Recipes
 
-Original Kim Aldis – 2016
-Modified Walter Rowe – 2017-2019
+| Role | Name | Year |
+| ---: | --- | --- |
+| Original | Kim Aldis | 2016 |
+| Modified | Walter Rowe | 2019 |
 
 To create an app from this script
 1. Open add_border.scpt in ScriptEditor
 2. File > Export and save in a place where you can reference it
 	* File Format: Application
-3. Add to "Open With" in Capture One Output Recipe
+
+To use inside Capture One
+1. Go to "Open With" field in a Capture One Output Recipe
+2. Navigate to and select add_border droplet
+
+To use directly in macOS Finder
+1. Select image files in Finder
+2. Drag-n-drop onto add_border droplet
   
 To see the origins of this script
 1. Open Apple ScriptEditor
