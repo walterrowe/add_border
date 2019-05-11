@@ -13,7 +13,7 @@ To create an app from this script
 	* File Format: Application
 
 To use inside Capture One
-1. Go to "Open With" field in a Capture One Output Recipe
+1. Go to `Open With` field in a Capture One Output Recipe
 2. Navigate to and select add_border droplet
 
 To use directly in macOS Finder
