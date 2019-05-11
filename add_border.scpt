@@ -1,12 +1,12 @@
 (*
 	Original: Kim Aldis – 2016
 	Modified: Walter Rowe – 2017
-	
-  To create an app from this script
-  1) Open the source file in ScriptEditor
-  2) File > Export and save in a place where you can reference it
-    File Format: Application
-  3) Add to "Open With" in Capture One Output Recipe
+
+	To create an app from this script
+	1) Open the source file in ScriptEditor
+	2) File > Export and save in a place where you can reference it
+		File Format: Application
+	3) Add to "Open With" in Capture One Output Recipe
   
 	To see the origins of this script
 	1) open Script Editor
