@@ -17,40 +17,40 @@ on open these_items
 		
 		(* get the name of the current file we are processing *)
 		try
-			set this_filename to the name of item_info
+			set this_filename to name of item_info
 		on error
 			set this_filename to ""
 		end try
 		
 		(* get the extension of the current file we are processing *)
 		try
-			set this_extension to the name extension of item_info
+			set this_extension to name extension of item_info
 		on error
 			set this_extension to ""
 		end try
 		
 		(* get the type of the current file we are processing *)
 		try
-			set this_filetype to the file type of item_info
+			set this_filetype to file type of item_info
 		on error
 			set this_filetype to ""
 		end try
 		
 		(* get the type ID of the current file we are processing *)
 		try
-			set this_typeID to the type identifier of item_info
+			set this_typeID to type identifier of item_info
 		on error
 			set this_typeID to ""
 		end try
 		
 		(* get the POSIX path of the current file we are processing *)
-		set this_path to the quoted form of the POSIX path of this_item
+		set this_path to quoted form of POSIX path of this_item
 		
 		(* set interior border width to 2 pixel on each side - total of 4 pixels *)
 		set padding to 4
 		
 		(* only process if we support the image type *)
-		if ((this_filetype is in the type_list) or (this_extension is in the extension_list) or (this_typeID is in the typeIDs_list)) then
+		if ((this_filetype is in type_list) or (this_extension is in extension_list) or (this_typeID is in typeIDs_list)) then
 			try
 				(* extract the x/y dimensions in pixels *)
 				tell application "Image Events"
@@ -59,11 +59,12 @@ on open these_items
 					close this_image
 				end tell
 				
-				(* set absolute image width and height to include ‚Äúinterior‚Äù white border edge *)
+				(* set absolute image width and height to include “interior” white border edge *)
 				set pixelHeight to y + padding
 				set pixelWidth to x + padding
 				
-				(* increase image dimensions by ‚Äúpadding‚Äù pixels to add white border *)
+				(* increase image dimensions by “padding” pixels to add white border *)
+				
 				try
 					do shell script "sips " & this_path & " -p " & pixelHeight & " " & pixelWidth & " --padColor ffffff -i"
 				on error errStr number errorNumber
@@ -81,7 +82,7 @@ on open these_items
 				set pixelHeight to y + padding
 				set pixelWidth to x + padding
 				
-				(* increase image dimensions by ‚Äúpadding‚Äù pixels to add black border *)
+				(* increase image dimensions by “padding” pixels to add black border *)
 				do shell script "sips " & this_path & " -p " & pixelHeight & " " & pixelWidth & " --padColor 000000 -i"
 				
 			on error errStr number errorNumber
