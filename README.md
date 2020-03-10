@@ -26,7 +26,7 @@ macOS AppleScript to add borders to image files. This works as a droplet with ma
 
 macOS Catalina introduces new levels of security to protect your system from unwanted access to your files. This change requires you to grant explicit access. This droplet uses the Image Event core service to modify the border of the selected image files. We therefore need to grant Full Disk access to the Image Event service.
 
-This fix was found on the Apple Developer forums in [this message](https://forums.developer.apple.com/thread/124420#388692).
+This fix was found in [this article](https://darjeelingsteve.com/articles/Fixing-%22Image-Events%22-AppleScripts-Broken-in-macOS-10.15-Catalina.html).
 
 1. Open System Preferences
 2. Go to Security & Privacy
