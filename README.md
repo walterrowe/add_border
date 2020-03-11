@@ -35,7 +35,10 @@ This fix was found in [this article](https://darjeelingsteve.com/articles/Fixing
 5. Scroll down to and select Full Disk Access
 6. In the right side click the "+" button
 7. In the navigator popup, select the following:
-	* /System/Library/CoreServices/Image Events
+	* Macintosh HD > System > Library > CoreServices > Image Events
+8. Press the Open button in the bottom right corner
+
+This should add the Image Events service to the list of apps with Full Disk Access permissions.
 
 ### To use directly in macOS Finder
 
