@@ -63,7 +63,7 @@ on open these_items
 				set pixelHeight to y + padding
 				set pixelWidth to x + padding
 				
-				(* increase image dimensions by “padding” pixels to add white border *)
+				(* increase image dimensions by padding pixels to add white border *)
 				
 				try
 					do shell script "sips " & this_path & " -p " & pixelHeight & " " & pixelWidth & " --padColor ffffff -i"

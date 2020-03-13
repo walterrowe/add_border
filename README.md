@@ -31,7 +31,9 @@ macOS AppleScript to add borders to image files. This works as a droplet with ma
 
 ### Change Border Size
 
-Look at comments inside the AppleScript code to see where you can change the border styles. You can create multiple apps from this same script. Each app you create can add their own border size and style. Example ideas might be:
+Look at comments inside the AppleScript code to see where you can change the border styles. You can create multiple apps from this same script. Simply modify the border code to your liking inside the script and export it as a new app with an appropriate name. Each app you create will add the border you coded into the script when you saved it. If you don't like what you created, just delete the exported app and create a new one.
+
+Example ideas might be:
 
 * add\_border\_10 – add a 10-pixel border
 * add\_border\_20 – add a 20-pixel border
