@@ -40,7 +40,7 @@ Example ideas might be:
 * add\_border\_black – add a black border with inner white border
 * add\_border\_white – add a white border with inner black border
 
-You can create different Process Recipes in Capture One that reference the different apps you created, or you can use macOS Finder to drag-n-drop selected images onto the app version provides adds the border you desire.
+You can create different Process Recipes in Capture One that reference the different apps you created, or you can use macOS Finder to drag-n-drop selected images onto the app version that adds the border you desire.
 
 ## macOS Catalina Changes
 
