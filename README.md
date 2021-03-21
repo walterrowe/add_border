@@ -13,7 +13,7 @@ macOS AppleScript to add borders to image files. This works as a droplet with ma
 
 ### Create an app from this script
 
-1. Open add_border.scpt in ScriptEditor
+1. Open add_border.applescript in ScriptEditor
 2. File > Export and save in a place where you can reference it
 	* File Format: Application
 
